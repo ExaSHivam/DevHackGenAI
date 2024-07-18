@@ -12,7 +12,7 @@ from auth import authenticate
 app = Flask(__name__)
 CORS(app)
 
-host = "https://devhack-genai.onrender.com"
+host = "https://devhackgenai.onrender.com"
 
 
 @app.route('/')
